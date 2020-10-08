@@ -1,0 +1,32 @@
+.App {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: #282c34;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.section1 {
+    height: 80vh;
+    background: rgb(236, 235, 240);
+    color: #282c34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
